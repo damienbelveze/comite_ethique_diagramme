@@ -1,0 +1,167 @@
+---
+title: "diagramme comité éthique"
+date: "20241014"
+author: Atelier de la Donnée ARDoISE
+format: 
+    revealjs:
+      logo: images/logo_ardoise.png
+      footer: "CC-by:4.0 Damien Belvèze"
+      title-slide-attributes:
+          data-background-image: images/fuji.jpg
+          data-background-size: "100%" 
+          data-background-opacity: "0.5"
+      slide-number: c/t
+#         show-slide-number: # print
+#         show-notes: separate-page
+      embed-resources: true
+      from: markdown+emoji
+      theme: [dark, style.css]
+      background-color: fef1da
+      reveal_plugins: [menu]
+      reveal_options: 
+        menu: 
+            numbers: true
+#  resource-path: ["images"]
+bibliography: biblio.bib
+csl: nature.csl
+---
+
+# {#slide1 .r-fit-text}
+
+
+
+::::{.center-xy}
+
+:::{.text_center}
+L'objectif de ces trois logigrammes est de vous aider à répondre à des questions sur le parcours juridique et éthique d'un projet de recherche
+:::
+
+<div onclick="location.href='#slide2';" style="cursor: pointer;">
+:::{.clickable_lightb} 
+Dois-je consulter le comité d'éthique de la recherche de mon institution ?
+:::
+</div>
+
+<div onclick="location.href='#slide4';" style="cursor: pointer;">
+:::{.clickable_mediumb}
+Dois-je demander le consentement préalable des personnes impliquées par mon projet de recherche ?
+:::
+</div>
+:::{.clickable_darkb}
+Quelles démarches lorsque je collecte des données personnelles ?
+:::
+
+::::
+
+# {#slide2}
+
+
+
+
+::::{.clickable_lightb} 
+Dois-je consulter le comité d'éthique de la recherche de mon institution ?
+::::
+
+::::{.text_center}
+Mon projet est financé :   
+- par l'union européenne *et/ou*  
+- en partenariat avec les Etats-Unis ou le Canada *et/ou*  
+- doit donner lieu à un article dans une revue demandant une attestation éthique  
+::::
+
+::::{.columns}
+:::{.column width="50%"}
+<div onclick="location.href='#slide3';" style="cursor: pointer;">
+:::{.clickable_lightp}
+OUI
+:::
+</div>
+:::
+:::{.column width="50%"}
+:::{.clickable_darkp}
+NON
+:::
+:::
+::::
+
+
+
+#  {#slide3}
+
+:::{.static_lightb}
+Vous devez obligatoirement consulter le comité d'éthique de la recherche
+:::
+
+
+```{mermaid}
+flowchart TD
+    A["Qu'est-ce qui doit figurer dans
+    le formulaire d'attestation auprès
+    du comité d'éthique de la recherche ?"] 
+    B["descriptif de la méthodologie du projet"]
+    C["traitement des données personnelles"]
+    D["note d'information :
+    nature du projet, risques encourus"]
+    E["formulaire de consentement libre 
+    et éclairé 
+    - à conserver"]
+    F(("déclaration au
+    registre de traitement
+    auprès de la DPO"))
+    
+    A --> B
+    A --> C
+    A --> D
+    A --> E
+    E --> F
+
+style A fill:#fff, stroke:#6d6cbd, stroke-width: 4px 
+style B fill:#6d6cbd, color:#fff
+style C fill:#4d47c4, color:#fff
+style D fill:#3d289e, color:#fff
+style E fill:#3d289e, color:#fff
+style F fill:#fff, stroke:#6d6cbd, stroke-width: 4px 
+
+click C "#slide6" "open slide6"
+
+```
+
+
+# {#slide4}
+
+::::{.clickable_lightb} 
+Dois-je demander le consentement préalable des personnes impliquées par mon projet de recherche ?
+::::
+
+::::{.text_center}
+Mon projet:  
+
+- implique directement des personnes vivantes *et/ou*  
+- recueille des données personnelles et sensibles *et/ou*   
+- implique des personnes mineurs *et/ou*  
+- implique des personnes vulnérables *et/ou*  
+- implique de filmer ou enregistrer les personnes  
+::::
+
+::::{.columns}
+:::{.column width="50%"}
+<div onclick="location.href='#slide5';" style="cursor: pointer;">
+:::{.clickable_lightp}
+OUI
+:::
+</div>
+:::
+:::{.column width="50%"}
+:::{.clickable_darkp}
+NON
+:::
+:::
+::::
+
+# {#slide5}
+
+blabla
+
+# {#slide6}
+
+{{< animate bounce "bloublou" >}}
