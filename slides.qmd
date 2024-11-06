@@ -129,8 +129,19 @@ click C "#slide6" "open slide6"
 
 # {#slide4}
 
-::::{.clickable_lightb} 
+
+::::{.columns}
+:::{.column width="90%"}
+:::{.clickable_lightb} 
 Dois-je demander le consentement préalable des personnes impliquées par mon projet de recherche ?
+:::
+:::
+:::{.column width="10%"}
+<div class="fa-3x">
+<i class="fa-solid fa-clipboard fa-beat" style="--fa-animation-duration: 0.5s;"></i>
+</div>
+<!--![](images/logo_notebook.png) -->
+:::
 ::::
 
 ::::{.text_center}
@@ -159,9 +170,10 @@ NON
 ::::
 
 # {#slide5}
-
-blabla
-
+<div class="fa-3x">
+  <i class="fa fa-address-book-o fa-fade fa"></i>
+</div>
 # {#slide6}
 
-{{< animate bounce "bloublou" >}}
+Définition
+
