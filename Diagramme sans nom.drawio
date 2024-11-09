@@ -1,20 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" version="24.8.4">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="831" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="722" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="w-HX_fHMtzxKANylX04L-1" value="qu&#39;est-ce qui doit figurer dans le formulaire d&#39;attestation auprès du comité d&#39;éthique de la recherche ?" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#6d6cbd;fontColor=#6d6cbd;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="254" y="112" width="320" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="w-HX_fHMtzxKANylX04L-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="w-HX_fHMtzxKANylX04L-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="222" as="sourcePoint" />
-            <mxPoint x="340" y="172" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="260" y="240" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="260" y="112" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w-HX_fHMtzxKANylX04L-4" value="&lt;div&gt;descriptif de la méthodologie du projet (objectifs, procédures)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;fillColor=#6d6cbd;fontColor=#ffffff;fontStyle=1;strokeColor=#6d6cbd;" vertex="1" parent="1">
           <mxGeometry x="120" y="240" width="120" height="60" as="geometry" />
@@ -30,6 +21,36 @@
         </mxCell>
         <mxCell id="w-HX_fHMtzxKANylX04L-8" value="déclaration au registre du traitement des données personnelles auprès de la DPO" style="ellipse;whiteSpace=wrap;html=1;fontColor=#4d47c4;strokeColor=#4d47c4;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="280" y="360" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="w-HX_fHMtzxKANylX04L-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.297;entryY=0.943;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.473;exitY=0.992;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="w-HX_fHMtzxKANylX04L-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="170" as="sourcePoint" />
+            <mxPoint x="180.0000000000001" y="240.00000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w-HX_fHMtzxKANylX04L-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.475;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="w-HX_fHMtzxKANylX04L-1" target="w-HX_fHMtzxKANylX04L-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="174" as="sourcePoint" />
+            <mxPoint x="190.0000000000001" y="250.00000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w-HX_fHMtzxKANylX04L-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.462;exitY=1.049;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414.00000000000017" y="171.99999999999994" as="sourcePoint" />
+            <mxPoint x="506.16" y="239.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w-HX_fHMtzxKANylX04L-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="172" as="sourcePoint" />
+            <mxPoint x="660" y="237.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w-HX_fHMtzxKANylX04L-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="339.74" y="300" as="sourcePoint" />
+            <mxPoint x="339.74" y="360" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
