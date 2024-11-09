@@ -8,23 +8,23 @@
         <mxCell id="w-HX_fHMtzxKANylX04L-1" value="qu&#39;est-ce qui doit figurer dans le formulaire d&#39;attestation auprès du comité d&#39;éthique de la recherche ?" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#6d6cbd;fontColor=#6d6cbd;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="260" y="112" width="320" height="60" as="geometry" />
         </mxCell>
-        <object label="&lt;div&gt;descriptif de la méthodologie du projet (objectifs, procédures)&lt;/div&gt;" id="w-HX_fHMtzxKANylX04L-4">
+        <object label="&lt;div&gt;descriptif de la méthodologie du projet (objectifs, procédures)&lt;/div&gt;" id="square1">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;fillColor=#6d6cbd;fontColor=#ffffff;fontStyle=1;strokeColor=#6d6cbd;" vertex="1" parent="1">
             <mxGeometry x="120" y="240" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
-        <object label="traitement des données personnelles" donnees_perso="" id="w-HX_fHMtzxKANylX04L-5">
+        <object label="traitement des données personnelles" donnees_perso="" id="square2">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#4d47c4;strokeWidth=1;fillColor=#4d47c4;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
             <mxGeometry x="280" y="240" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="w-HX_fHMtzxKANylX04L-6" value="notes d&#39;information (nature du projet, risques encourus)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3d289e;strokeColor=#3d289e;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="square3" value="notes d&#39;information (nature du projet, risques encourus)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3d289e;strokeColor=#3d289e;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="440" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="w-HX_fHMtzxKANylX04L-7" value="formulaire de consentement libre et éclairé (à archiver)" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#261573;strokeColor=#261573;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="square4" value="formulaire de consentement libre et éclairé (à archiver)" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#261573;strokeColor=#261573;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="600" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="w-HX_fHMtzxKANylX04L-8" value="déclaration au registre du traitement des données personnelles auprès de la DPO" style="ellipse;whiteSpace=wrap;html=1;fontColor=#4d47c4;strokeColor=#4d47c4;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="round1" value="déclaration au registre du traitement des données personnelles auprès de la DPO" style="ellipse;whiteSpace=wrap;html=1;fontColor=#4d47c4;strokeColor=#4d47c4;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="280" y="360" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="w-HX_fHMtzxKANylX04L-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.297;entryY=0.943;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.473;exitY=0.992;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="w-HX_fHMtzxKANylX04L-1">
